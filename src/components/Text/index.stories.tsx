@@ -50,7 +50,6 @@ export const Default: React.FC = () => {
       <Text color="secondary" textTransform="uppercase">
         with text transform
       </Text>
-      <Text textAlign="center">center</Text>
     </div>
   );
 };
