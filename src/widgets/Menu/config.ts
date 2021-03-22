@@ -55,7 +55,7 @@ export const links = [
   },
   {
     label: "Info",
-    icon: "InfoIcon",
+    icon: "DocsIcon",
     items: [
       {
         label: "Overview",
@@ -76,8 +76,8 @@ export const links = [
     ],
   },
   {
-    label: "IFO",
-    icon: "IfoIcon",
+    label: "IcO",
+    icon: "InvestIcon",
     items: [
       {
         label: "Next",
@@ -166,6 +166,10 @@ export const socials = [
         label: "Announcements",
         href: "https://t.me/stakecafe_ann",
       },
+      // {
+      //   label: "Random Chat",
+      //   href: "https://t.me/stakecafechat",
+      // },
       // {
       //   label: "Whale Alert",
       //   href: "https://t.me/PancakeSwapWhales",
