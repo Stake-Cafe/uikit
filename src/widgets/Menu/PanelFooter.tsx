@@ -118,7 +118,7 @@ const PanelFooter: React.FC<Props> = ({
             <Text color="textDisabled" mx="4px">
               /
             </Text>
-            <SplashIcon color={isDark ? "text" : "textDisabled"} width="24px" />
+            <SplashIcon color={isDark ? "text" : "textSubtle"} width="30px" />
           </Flex>
         </Button>
         <Dropdown
