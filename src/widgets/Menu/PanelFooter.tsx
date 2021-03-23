@@ -79,7 +79,6 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>
         <Skeleton width={80} height={24} />
-
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
@@ -112,7 +111,7 @@ const PanelFooter: React.FC<Props> = ({
             <Text color="textDisabled" mx="4px">
               /
             </Text>
-            <SplashIcon color={isDark ? "text" : "textDisabled"} width="24px" />
+            <SplashIcon color={isDark ? "text" : "textSubtle"} width="30px" />
           </Flex>
         </Button>
         <Dropdown
