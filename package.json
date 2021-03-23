@@ -1,6 +1,6 @@
 {
   "name": "@stakecafe-libs/uikit",
-  "version": "0.10.2",
+  "version": "0.0.0",
   "description": "Set of UI components for Stake.Cafe projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -30,6 +30,13 @@
       "<rootDir>/src/setupTests.js"
     ]
   },
+  "np": {
+      "yarn": false,
+      "contents": "dist"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
@@ -56,7 +63,7 @@
     "husky": "^4.3.0",
     "jest": "^26.6.3",
     "jest-styled-components": "^7.0.3",
-    "np": "^7.2.0",
+    "np": "^7.4.0",
     "prettier": "^2.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
