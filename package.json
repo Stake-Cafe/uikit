@@ -1,5 +1,5 @@
 {
-  "name": "@stakecafe-libs/uikit",
+  "name": "@stakecaferoast/uikit",
   "version": "0.10.2",
   "description": "Set of UI components for Stake.Cafe projects",
   "main": "dist/index.cjs.js",
