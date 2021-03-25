@@ -78,7 +78,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-        <Skeleton width={80} height={24} />
+        <Skeleton width={80} height={1} />
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
